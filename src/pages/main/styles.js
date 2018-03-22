@@ -34,6 +34,23 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
   },
 
+  loading: {
+    color: colors.darkTransparent,
+  },
+
+  error: {
+    alignSelf: 'stretch',
+    backgroundColor: colors.danger,
+    paddingVertical: metrics.basePadding / 2,
+    paddingHorizontal: metrics.basePadding,
+    borderRadius: metrics.baseRadius,
+    marginBottom: metrics.baseMargin,
+  },
+
+  errorText: {
+    color: colors.darkTransparent,
+  },
+
   input: {
     height: 50,
     backgroundColor: colors.white,
